@@ -1,12 +1,12 @@
 <template>
   <div class="hello">
         <Navbar></Navbar><hr/>
-        <div class="container h-10">
+        <div class="container h-10" style="margin-top:40px;">
           <div class="row h-100 justify-content-center align-items-center">
             <div class="col-md-5">
               <div class="hero-content">
                 <h1 class="hero-title">
-                  Share Your Blog To Others
+                  about the writer ...
                 </h1>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos numquam tempora, iure delectus totam minus quam aperiam ratione dolores magni voluptates ut necessitatibus odio ipsum fuga, voluptas ab praesentium nihil?
@@ -17,36 +17,15 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-7">
-                <div class="graphic">
-                    <img src="/img/svg/graphic.svg" alt="">
-                </div>
-            </div>
           </div>
-        </div> 
-    <!-- under ------------------------------ -->
-    <!-- <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Home page</h3>
-    <ul>
-      <li><router-link to="/login">Login</router-link></li>
-      <li><router-link to="/blog">Blog</router-link></li>
-    </ul> -->
-    
+        </div>    
   </div>
 </template>
 
 <script>
-import Navbar from './Navbar.vue'
+import Navbar from './../Navbar.vue'
 export default {
   name: 'HelloWorld',
-  props: {
-    msg: String
-  },
   components:{
     Navbar
   }
